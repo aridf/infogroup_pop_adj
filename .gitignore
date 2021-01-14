@@ -1,3 +1,12 @@
+# Hide data, since it is too large
+data/
+
+# notebook checkpoints
+.ipynb_checkpoints
+
+# DS store
+.DS_Store
+
 # History files
 .Rhistory
 .Rapp.history
