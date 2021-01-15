@@ -6,10 +6,10 @@ suppressPackageStartupMessages({
 })
 
 # Load in data
-acs_1_county <- read_csv("data/county_acs_1yr_2005_2018_long.csv")
-acs_5_county <- read_csv("data/county_acs_5yr_2009_2018_long.csv")
-cens_2010_county <- read_csv("data/census/county_census_2010.csv")
-ig_county <- read_csv("data/infogroup_counts/county_2006_2019.csv")
+acs_1_county <- read_csv("data/acs/county_acs_1yr_2005_2018_long.csv")
+acs_5_county <- read_csv("data/acs/county_acs_5yr_2009_2018_long.csv")
+cens_2010_county <- read_csv("data/decennial/county_census_2010.csv")
+ig_county <- read_csv("data/infogroup/county_2006_2019.csv")
 ig_county_rows <- nrow(ig_county)
 
 # Clean up ACS

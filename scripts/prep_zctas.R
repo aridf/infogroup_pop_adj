@@ -5,9 +5,9 @@ suppressPackageStartupMessages({
 })
 
 # Load in ZCTA data
-cens_2010_zcta <- read_csv("data/census/zcta_census_2010.csv")
-acs_5_zcta <- read_csv("data/zcta_acs_2011_2018_long.csv")
-ig_zcta <- read_csv("data/infogroup_counts/zcta_2006_2019.csv")
+cens_2010_zcta <- read_csv("data/decennial/zcta_census_2010.csv")
+acs_5_zcta <- read_csv("data/acs/zcta_acs_2011_2018_long.csv")
+ig_zcta <- read_csv("data/infogroup/zcta_2006_2019.csv")
 ig_zcta_rows <- nrow(ig_zcta)
 
 # Check that no counts in the ACS are missing

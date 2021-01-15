@@ -1,5 +1,7 @@
-# Hide data, since it is too large
+# Hide folders that are too large to share
 data/
+models/
+plots/
 
 # notebook checkpoints
 .ipynb_checkpoints

@@ -6,9 +6,9 @@ suppressPackageStartupMessages({
 })
 
 # Load in data
-acs_5_tract <- read_csv("data/tract_acs_2009_2018_long.csv")
-cens_2010_tract <- read_csv("data/census/tract_data_2010.dta.csv")
-ig_tract <- read_csv("data/infogroup_counts/tract_2006_2019.csv")
+acs_5_tract <- read_csv("data/acs/tract_acs_2009_2018_long.csv")
+cens_2010_tract <- read_csv("data/decennial/tract_data_2010.dta.csv")
+ig_tract <- read_csv("data/infogroup/tract_2006_2019.csv")
 ig_tract_rows <- nrow(ig_tract)
 
 # Check that no counts in the ACS are missing
