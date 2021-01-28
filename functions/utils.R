@@ -163,7 +163,7 @@ proj_by_year <- function(
     # Specifically, we are dropping the 2010 counts, the year 2010,
     # and the census counts from 2010
     decennial_minus_ig <- decennial_data %>% 
-      select(-ig_count_imptd, -year, -chh)
+      select(-one_of("ig_count_imptd", "year", "chh"))
     
     # Add in the new data from the ACS-IG dataset.
     # This adds in the ig counts, census counts, and the year variable
